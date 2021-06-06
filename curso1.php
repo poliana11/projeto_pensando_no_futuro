@@ -436,7 +436,7 @@ if ($id != 0) {
   
   <div class="card-columns" style="background-color: white; height: 750px; border-color: teal; margin-top: 3em;" id="margem_lateral">
     <div class="card"style="border-color: teal; height: 440px;">
-      <img src="images/11.jpg" class="card-img-top" alt="...">
+      <img src="images/11.JPG" class="card-img-top" alt="...">
       <a class="card-text"><small class="text-muted"></br>&nbsp&nbsp Foto - Assessoria de Comunicação do IFRS Campus Farroupilha </small></a>
       <div class="card-body">
         <h5 class="card-title">Local de oferta</h5>
