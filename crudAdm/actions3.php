@@ -277,7 +277,7 @@
     <div id="texto"><b>Excluir administrador</b></div>
 	<div id="texto2"></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
         //$tela = 500; ?>
             
             <?php if ($tela <= 767) { ?>
@@ -396,7 +396,7 @@
 					}
 					echo "<br>";
 					mysqli_close($conexao); // fecha conexão
-           echo "<p align=\"center\" id=\"botao_voltar\"><a style='font-size:16px; color: #008B8B' href=\"http://localhost/ProjTCC/crudAdm/formulario.php\">
+           echo "<p align=\"center\" id=\"botao_voltar\"><a style='font-size:16px; color: #008B8B' href=\"formulario.php\">
            <br> <b>VOLTAR</b></a></p>";
 				}
 
