@@ -1,6 +1,6 @@
 <?php
-include('C:\wamp64/www/ProjTCC/actions/conexao.php');
-include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
+include('../actions/conexao.php');
+include('../actions/valida_cookies.inc');
 //echo $_SESSION["nome_usuario"];
 
 include __DIR__ . '/../detectScreen.php'; 
@@ -264,7 +264,7 @@ include __DIR__ . '/../detectScreen.php';
 	<img src="images/logo8.png" id="logo" class="mg-fluid rounded float-right" style="position:absolute; top:50px;  max-height: 160px; max-width: 200px; right: 20px;" />
 	<div id="texto"><b>Consultar administradores</b></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
 		    //$tela = 500; ?>
 
 	<?php if ($tela > 767) { ?>
@@ -398,7 +398,7 @@ include __DIR__ . '/../detectScreen.php';
 						echo "<br> <br />";
 					}
 					
-					echo "<a href=\"http://localhost/ProjTCC/crudAdm/formulario.php\"> VOLTAR</a>";
+					echo "<a href=\"formulario.php\"> VOLTAR</a>";
 					?>
 				</tbody>
 			</div>
