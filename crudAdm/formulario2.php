@@ -1,6 +1,6 @@
 <?php
-include('C:\wamp64/www/ProjTCC/actions/conexao.php');
-include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
+include('../actions/conexao.php');
+include('../actions/valida_cookies.inc');
 //echo $_SESSION["nome_usuario"];
 ?>
 <?php include __DIR__ . '/../detectScreen.php'; ?>
