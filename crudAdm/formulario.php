@@ -1,6 +1,6 @@
 <?php
 //include('C:\wamp64/www/ProjTCC/actions/conexao.php');
-include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
+include('../actions/valida_cookies.inc');
 include __DIR__ . '/../detectScreen.php';
 //echo $_SESSION["nome_usuario"];
 ?>
@@ -261,7 +261,7 @@ include __DIR__ . '/../detectScreen.php';
     <!--<div id="texto2"></div>   -->
 
     
-    <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+    <?php $tela= $_SESSION['screenInfo']['widthTela']; 
           //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
