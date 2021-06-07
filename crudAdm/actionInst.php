@@ -1,6 +1,6 @@
 <?php include __DIR__ . '/../detectScreen.php';
 
-include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
+include('../actions/valida_cookies.inc');
 ?>
 
 <!DOCTYPE html>
@@ -261,7 +261,7 @@ include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
     <div id="texto"><b>Alterar Reitor e Diretor</b></div>
 	<div id="texto2"></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
         //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
@@ -375,7 +375,7 @@ include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
 						echo "Não foi possível inserir!" . "<br>";
 					}
 					mysqli_close($conexao);
-					echo "<a style='font-size:16px; color: #008B8B' href=\"http://localhost/ProjTCC/crudAdm/formulario2.php\"><b> VOLTAR</b></a>";
+					echo "<a style='font-size:16px; color: #008B8B' href=\"formulario2.php\"><b> VOLTAR</b></a>";
 				}
 				?>
 			</div>
