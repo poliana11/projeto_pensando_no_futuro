@@ -355,7 +355,7 @@
       <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
     </div>
     <a class="card-text"><small class="text-muted">&nbsp&nbsp Foto - Assessoria de Comunicação do IFRS Campus Farroupilha </small></a>
-    <img src="images/12.jpg" class="card-img-top" alt="...">
+    <img src="images/12.JPG" class="card-img-top" alt="...">
   </div>
   <!--///////////-->
   <div class="card-group" style="border-color: teal; margin-top: 1em;">
