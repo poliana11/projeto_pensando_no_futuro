@@ -267,7 +267,7 @@
 	<div id="texto"><b>Alterar dados curso</b></div>
 	<div id="texto2"></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
 		    //$tela = 500; ?>
 		  
 	<?php if ($tela > 767) { ?>
@@ -525,7 +525,7 @@
 					}
 					mysqli_close($conexao);
           echo "<p align=\"center\" id=\"botao_voltar\">
-          <a style='font-size:16px; color: #008B8B' href=\"http://localhost/ProjTCC/crudAdm/crudCursos/formulario.php\"><br><br><br><br> <b>VOLTAR</b></a></p>";
+          <a style='font-size:16px; color: #008B8B' href=\"formulario.php\"><br><br><br><br> <b>VOLTAR</b></a></p>";
 				}
 
 
