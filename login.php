@@ -295,7 +295,7 @@
     <div id="texto" class="text-center"><b>Erro ao efetuar login</b></div>
     <div id="texto2" class="text-center"></div>
 
-    <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+    <?php $tela= $_SESSION['screenInfo']['widthTela']; 
           //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
