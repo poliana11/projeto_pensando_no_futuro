@@ -132,7 +132,6 @@
     <div class=fundo>
 
         <?php $tela= $_SESSION['screenInfo']['widthTela'];
-                 echo "AQUI" . $tela;
               //$tela = 500; ?>
 
         <?php if ($tela <= 767) { ?>
