@@ -250,7 +250,7 @@
 	<div id="texto"><b>Alterar dados administardor</b></div>
 	<div id="texto2"></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
     	  //$tela = 500; ?>
      
     <?php if ($tela <= 767) { ?>
@@ -372,7 +372,7 @@
 						echo "Não foi possível realizar a atualização!" . "<br>";
 					}
 					mysqli_close($conexao);
-					echo "<br><br> <a href=\"http://localhost/ProjTCC/crudAdm/formulario.php\"> VOLTAR</a>";
+					echo "<br><br> <a href=\"formulario.php\"> VOLTAR</a>";
 				}
 
 				
