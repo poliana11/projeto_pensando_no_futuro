@@ -256,7 +256,7 @@
     <div id="texto" class="text-center"><b>CURSOS</b></div>
     
 
-    <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+    <?php $tela= $_SESSION['screenInfo']['widthTela']; 
           //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
