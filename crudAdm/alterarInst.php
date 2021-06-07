@@ -1,6 +1,6 @@
 <?php
 
-include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
+include('../actions/valida_cookies.inc');
 /*$id_codigo = $_POST['codigo']; //obtém a linha
 
 $nome = "";
@@ -284,7 +284,7 @@ if ($id_codigo != 0) {*/
   <div id="texto"><b>Alterar Reitor e Diretor</b></div>
   <div id="texto2"></div>
 
-  <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+  <?php $tela= $_SESSION['screenInfo']['widthTela']; 
         //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
