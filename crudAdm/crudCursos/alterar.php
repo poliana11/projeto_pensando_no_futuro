@@ -405,7 +405,7 @@ include __DIR__ . '/../../detectScreen.php';
     <div id="texto"><b>Alterar dados curso</b></div>
     <div id="texto2"></div>
 
-    <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+    <?php $tela= $_SESSION['screenInfo']['widthTela']; 
     	  //$tela = 500; ?>
 
     <?php if ($tela <= 767) { ?>
