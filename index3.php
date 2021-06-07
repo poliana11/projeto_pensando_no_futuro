@@ -135,7 +135,7 @@
                  echo "AQUI" . $tela;
               //$tela = 500; ?>
 
-        <?php if ($tela <= 767) { ?>
+        <?php if ($tela >= 892) { ?>
         <nav class="navbar navbar-expand-md navbar-light " style="background-color: #008B8B; ">
             <!--<a href="#" class="navbar-brand" style="color: white;">Menu</a>-->
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
@@ -163,7 +163,7 @@
         </nav>
         <?php } ?>
 
-        <?php if ($tela > 767) { ?>
+        <?php if ($tela > 767 && $tela < 892) { ?>
         <!--<div class="fixed-top ">-->
         <div class="container">
             <nav class="nav nav-expand-md flex-column">
