@@ -1,6 +1,6 @@
 <?php
-include('C:\wamp64/www/ProjTCC/crudAdm/crudCursos/conexaoBD.php');
-include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
+include('conexaoBD.php');
+include('../../actions/valida_cookies.inc');
 //echo $_SESSION["nome_usuario"];
 
 include __DIR__ . '/../../detectScreen.php'; 
@@ -280,7 +280,7 @@ include __DIR__ . '/../../detectScreen.php';
     <div id="texto"><b>Excluir curso</b></div>
 	<div id="texto2"></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
     	  //$tela = 500; ?>
      
     <?php if ($tela <= 767) { ?>
