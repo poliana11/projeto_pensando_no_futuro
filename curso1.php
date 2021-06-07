@@ -323,7 +323,7 @@ if ($id != 0) {
   <div id="texto"><b><?php echo $nome; ?></b></div>
   <!--<div id="texto2"></div>-->
 
-  <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+  <?php $tela= $_SESSION['screenInfo']['widthTela']; 
         //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
