@@ -272,7 +272,7 @@
 	<img src="images/logo8.png" id="logo" class="mg-fluid rounded float-right" style="position:absolute; top:50px;  max-height: 160px; max-width: 200px; right: 20px;" />
     <div id="texto"><b>Cadastrar administrador</b></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
 		    //$tela = 500; ?>
 		  
       <?php if ($tela <= 767) { ?>
