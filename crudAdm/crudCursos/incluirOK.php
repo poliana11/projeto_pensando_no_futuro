@@ -272,7 +272,7 @@
 	<img src="images/logo8.png" id="logo" class="mg-fluid rounded float-right" style="position:absolute; top:50px;  max-height: 160px; max-width: 200px; right: 20px;" />
     <div id="texto"><b>Inserir novo curso</b></div>
 
-	<?php $tela= $_SESSION['screenInfo']['heightTela']; 
+	<?php $tela= $_SESSION['screenInfo']['widthTela']; 
 		    //$tela = 500; ?>
 		  
       <?php if ($tela <= 767) { ?>
@@ -352,7 +352,7 @@
             <?php
                 echo "<p align=\"center\" id=\"texto2\">Inserção do curso realizada com sucesso!<br></p>"
                 . "<p align=\"center\" id=\"botao_voltar\">
-                <a style='font-size:16px; color: #008B8B' href=\"http://localhost/ProjTCC/crudAdm/crudCursos/formulario.php\"><br><br><br><br> <b>VOLTAR</b></a></p>";
+                <a style='font-size:16px; color: #008B8B' href=\"formulario.php\"><br><br><br><br> <b>VOLTAR</b></a></p>";
             ?>
         <?php if ($tela <= 767) { ?>
                 </div>
