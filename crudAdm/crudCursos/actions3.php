@@ -279,7 +279,7 @@
         style="position:absolute; top:50px;  max-height: 160px; max-width: 200px; right: 20px;" />
     <div id="texto"><b>Excluir curso</b></div>
 
-    <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+    <?php $tela= $_SESSION['screenInfo']['widthTela']; 
           //$tela = 500; ?>
 
     <?php if ($tela <= 767) { ?>
@@ -421,7 +421,7 @@
             }
             //echo "<br>";
             mysqli_close($conexao); // fecha conexão
-            echo "<p align=\"center\" id=\"botao_voltar\"><a style='font-size:16px; color: #008B8B' href=\"http://localhost/ProjTCC/crudAdm/crudCursos/formulario.php\">
+            echo "<p align=\"center\" id=\"botao_voltar\"><a style='font-size:16px; color: #008B8B' href=\"formulario.php\">
             <br> <b>VOLTAR</b></a></p>";
           }
 
