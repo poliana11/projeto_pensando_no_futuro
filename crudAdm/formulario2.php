@@ -259,7 +259,7 @@ include('C:\wamp64/www/ProjTCC/actions/valida_cookies.inc');
     <div id="texto" ><b>Administração</b></div>
     <!--<div id="texto2"></div>   -->
 
-    <?php $tela= $_SESSION['screenInfo']['heightTela']; 
+    <?php $tela= $_SESSION['screenInfo']['widthTela']; 
           //$tela = 500; ?>
             
     <?php if ($tela <= 767) { ?>
