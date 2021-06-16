@@ -419,7 +419,7 @@ include __DIR__ . '/../../detectScreen.php';
             <div class="navbar-nav">
                 <a href="../../index3.php" class="nav-item nav-link" style="color: white;">Pagina inicial</a>
                 <a href="../../instituicao.php" class="nav-item nav-link" style="color: white;">Instituição</a>
-                <a href="http://localhost/flarum/public/" class="nav-item nav-link" style="color: white;">Fórum</a>
+                <a href="http://forum-pensando-no-futuro.herokuapp.com/public/" class="nav-item nav-link" style="color: white;">Fórum</a>
                 <a href="../../cursos.php" class="nav-item nav-link" style="color: white;">Cursos</a>
                 <a href="../../logout.php" class="nav-item nav-link" style="color: white;">Logout</a>
             </div>
@@ -453,7 +453,7 @@ include __DIR__ . '/../../detectScreen.php';
                         style="height: 60px; font-size: 20px; color: white;">Instituição</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/flarum/public/"
+                    <a class="nav-link" href="http://forum-pensando-no-futuro.herokuapp.com/public/"
                         style="height: 60px; font-size: 20px; color: white;">Fórum</a>
                 </li>
                 <li class="nav-item">
