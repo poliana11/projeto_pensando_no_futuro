@@ -208,7 +208,7 @@
         <br /><br /><br /><br /><br /><br />
         <p1><div id="texto">Plataforma de Informações Acadêmicas de Cursos Superiores do IFRS - Campus Farroupilha</div></p1><br /><br /><br />
 
-        <a class="btn btn-info" href="http://localhost/flarum/public/" id="botao1"
+        <a class="btn btn-info" href="http://forum-pensando-no-futuro.herokuapp.com/public/" id="botao1"
             style="background-color: #008B8B;  margin-left: 0em; font-size: 25px; width: 200px; height: 60px;">Fórum</a>
         <a type="button" class="btn btn-outline" href="cursos.php" id="botao"
             style="border-color: #008B8B;  color: #008B8B; font-size: 25px; width: 200px; height: 60px;">Cursos</a>
