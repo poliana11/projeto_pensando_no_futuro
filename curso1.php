@@ -336,7 +336,7 @@ if ($id != 0) {
           <div class="navbar-nav">
             <a href="index3.php" class="nav-item nav-link" style="color: white;">Pagina inicial</a>
             <a href="instituicao.php" class="nav-item nav-link" style="color: white;">Instituição</a>
-            <a href="http://localhost/flarum/public/" class="nav-item nav-link" style="color: white;">Fórum</a>
+            <a href="http://forum-pensando-no-futuro.herokuapp.com/public/" class="nav-item nav-link" style="color: white;">Fórum</a>
             <a href="cursos.php" class="nav-item nav-link" style="color: white;">Cursos</a>
           </div>
           <div class="navbar-nav ml-auto">
@@ -363,7 +363,7 @@ if ($id != 0) {
               <a class="nav-link" href="instituicao.php" style="height: 60px; font-size: 20px; color: white;">Instituição</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/flarum/public/" style="height: 60px; font-size: 20px; color: white;">Fórum</a>
+              <a class="nav-link" href="http://forum-pensando-no-futuro.herokuapp.com/public/" style="height: 60px; font-size: 20px; color: white;">Fórum</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="cursos.php" style="height: 60px; font-size: 20px; color: white;">Cursos</a>
